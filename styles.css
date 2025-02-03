@@ -97,16 +97,34 @@ body {
     justify-content: center; /* Centrage vertical et horizontal */
 }
 .d{
-    width: 150%;
-    height: 150%;
+    position: absolute;
+    top: 120px;
+    /* left: -10%; Déplace plus à gauche */
+    right: -10%;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; /* Centrage vertical et horizontal */
+
+}
+.i img{
+    margin: 10px 0;
+
+}
+.i{
+    width: 50%;
+    height: 50%;
+    background: url('./src/images/trinaglebleu.png') no-repeat center /cover;
     display: flex;
     flex-direction: column;
     align-items: center; /* Centrage horizontal */
     justify-content: center; /*Centrage vertical */
-    /* text-align: center; */
+    text-align: center;
     padding: 20px;
     color: white;
-    position: absolute; /* Positionnement absolu pour garantir que le texte est au centre */
+    position: absolute;
 }
 .overlay {
     width: 150%;
